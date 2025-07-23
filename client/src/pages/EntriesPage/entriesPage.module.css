@@ -1,0 +1,27 @@
+.container {
+  width: 900px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: -1px;
+}
+
+.inputs {
+  height: 200px;
+  border: 1px solid black
+}
+
+.row {
+  display: flex;
+}
+
+.checkboxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  margin-left: 15px;
+}
