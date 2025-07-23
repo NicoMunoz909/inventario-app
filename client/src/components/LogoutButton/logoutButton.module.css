@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  top: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px 24px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.container svg {
+  font-size: 20px;
+  margin-left: 2px;
+}
+
+.container:hover {
+  color: white;
+}
