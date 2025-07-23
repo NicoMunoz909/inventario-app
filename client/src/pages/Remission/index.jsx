@@ -1,8 +1,6 @@
 const Remission = ({ inputs, items }) => {
-
   return (
     <div style={styles.contenedor}>
-      <img src="logo_id.jpg" alt="" width="300" height="180" />
       <div style={styles.separado}>
         <h1>RELACIÓN DE ENTREGA</h1>
         <h4>{new Date().toLocaleDateString()}</h4>
