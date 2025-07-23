@@ -7,8 +7,7 @@ module.exports = (sequelize, DataTypes) => {
      * This method is not a part of Sequelize lifecycle.
      * The `models/index` file will call this method automatically.
      */
-    static associate(models) {
-    }
+    static associate(models) {}
   }
   Inventario.init(
     {
@@ -26,7 +25,7 @@ module.exports = (sequelize, DataTypes) => {
       },
       descripcion: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: false,
       },
       serialNumber: {
         type: DataTypes.STRING,
@@ -35,9 +34,8 @@ module.exports = (sequelize, DataTypes) => {
       },
       facturaCompra: {
         type: DataTypes.STRING,
-        allowNull: true
+        allowNull: true,
       },
-      cfdi: DataTypes.STRING,
       almacen: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -48,15 +46,13 @@ module.exports = (sequelize, DataTypes) => {
       },
       facturaVenta: DataTypes.STRING,
       destino: DataTypes.STRING,
-      isBackup: DataTypes.BOOLEAN,
-      isDemo: DataTypes.BOOLEAN,
       fechaEntrada: DataTypes.DATE,
       fechaSalida: DataTypes.DATE,
     },
     {
       sequelize,
       modelName: "Inventario",
-      timestamps: false
+      timestamps: false,
     }
   );
   return Inventario;
