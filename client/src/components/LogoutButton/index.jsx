@@ -1,4 +1,4 @@
-import styles from "./LogoutButton.module.css";
+import styles from "./logoutButton.module.css";
 import { CiLogout } from "react-icons/ci";
 
 const LogoutButton = () => {
